@@ -1,15 +1,4 @@
-import { Component } from '@angular/core';
-
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = '';
-  type = 'GeoChart';
-  data = [
+[
     [33.900002,-119.199997,"Port Hueneme"],
     [42.933334,-76.566666,"Auburn"],
     [42.095554,-79.238609,"Jamestown"],
@@ -821,18 +810,4 @@ export class AppComponent {
     [37.733795,-122.446747,"San Francisco"],
     [38.769287,-112.088409,"Richfield"],
     [30.4874,-95.987228,"Anderson"]
-    
-    
-  ];
-  columnNames = ["Latitude","Longitude","Name"];
-  options = {   
-    showTip: true,
-    region: 'US',
-        resolution: 'provinces'
-     //   is3D: true
-  };
-  width = 1200;
-  height = 1200;
-
-
-}
+]
